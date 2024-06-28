@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@tailwind components;
+@tailwind utilities;
+@tailwind base;
+
+@layer base {
+    body {
+        @apply font-nunito bg-gray-300;
+    }
+}
+
+@layer components {
+    .container {
+        @apply mx-auto px-[15px] md:w-[750px] lg:w-[970px] xl:w-[1025px];
+    }
+    .search-results-container::-webkit-scrollbar {
+        @apply w-[6px];
+    }
+    .search-results-container::-webkit-scrollbar-thumb {
+        @apply rounded-sm bg-violet-700;
+    }
+}
