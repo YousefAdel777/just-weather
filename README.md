@@ -5,7 +5,7 @@ This is a weather web app built with React and Vite that allows users to search 
 
 ## Features:
 - Search for weather information by city name.
-- View a 7-day forecast for the selected location.
+- View a 3-day forecast for the selected location.
 - View weather details including temperature (Celsius or Fahrenheit), humidity, wind speed, chance of rain, UV index, and more.
 
 ## Tech Stack:
